@@ -1,0 +1,369 @@
+body{
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ------------------------header section----------------- */
+header{
+    background-image: url(../imgs/bg.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+}
+header .nav-custom{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+header .navbar .container ul li a:hover{
+    border-bottom: 1px solid white;
+}
+header .navbar .container ul li .active{
+    border-bottom: 1px solid white;
+}
+header .head_layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+header .head_layer h1{
+    font-size: 70px;
+}
+header .head_layer p{
+    font-size: 70px;
+    font-weight: 100;
+}
+header .head_layer p::after{
+    content: '|';
+    animation-name: switch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes switch{
+    1%{
+        content: '|';
+    }
+    2%{
+        content: 'L|';
+    }
+    3%{
+        content: 'La|';
+    }
+    4%{
+        content: 'Lar|';
+    }
+    5%{
+        content: 'Larr|';
+    }
+    6%{
+        content: 'Larry|';
+    }
+    7%{
+        content: 'Larry |';
+    }
+    8%{
+        content: 'Larry D|';
+    }
+    9%{
+        content: 'Larry Da|';
+    }
+    10%{
+        content: 'Larry Dan|';
+    }
+    11%{
+        content: 'Larry Dani|';
+    }
+    12%{
+        content: 'Larry Danie|';
+    }
+    13%{
+        content: 'Larry Daniel|';
+    }
+    14%{
+        content: 'Larry Daniels|';
+    }
+    16%{
+        content: 'Larry Daniel|';
+    }
+    17%{
+        content: 'Larry Danie|';
+    }
+    18%{
+        content: 'Larry Dani|';
+    }
+    19%{
+        content: 'Larry Dani|';
+    }
+    20%{
+        content: 'Larry Dan|';
+    }
+    21%{
+        content: 'Larry Da|';
+    }
+    22%{
+        content: 'Larry D|';
+    }
+    23%{
+        content: 'Larry|';
+    }
+    24%{
+        content: 'Larr|';
+    }
+    25%{
+        content: 'Lar|';
+    }
+    26%{
+        content: 'La|';
+    }
+    27%{
+        content: '|';
+    }
+    28%{
+        content: 'D|';
+    }
+    29%{
+        content: 'De|';
+    }
+    30%{
+        content: 'Des|';
+    }
+    31%{
+        content: 'Desi|';
+    }
+    32%{
+        content: 'Desig|';
+    }
+    33%{
+        content: 'Design|';
+    }
+    34%{
+        content: 'Designe|';
+    }
+    35%{
+        content: 'Designer|';
+    }
+    36%{
+        content: 'Designe|';
+    }
+    37%{
+        content: 'Design|';
+    }
+    38%{
+        content: 'Desig|';
+    }
+    39%{
+        content: 'Desi|';
+    }
+    40%{
+        content: 'Des|';
+    }
+    41%{
+        content: 'De|';
+    }
+    42%{
+        content: 'D|';
+    }
+    43%{
+        content: '|';
+    }
+    44%{
+        content: 'D|';
+    }
+    45%{
+        content: 'De|';
+    }
+    46%{
+        content: 'Dev|';
+    }
+    47%{
+        content: 'Deve|';
+    }
+    48%{
+        content: 'Devel|';
+    }
+    49%{
+        content: 'Develo|';
+    }
+    50%{
+        content: 'Develop|';
+    }
+    51%{
+        content: 'Develope|';
+    }
+    52%{
+        content: 'Developr|';
+    }
+    53%{
+        content: 'Develope|';
+    }
+    54%{
+        content: 'Develop|';
+    }
+    55%{
+        content: 'Develo|';
+    }
+    56%{
+        content: 'Devel|';
+    }
+    57%{
+        content: 'Deve|';
+    }
+    58%{
+        content: 'Dev|';
+    }
+    59%{
+        content: 'De|';
+    }
+    60%{
+        content: 'D|';
+    }
+    62%{
+        content: '|';
+    }
+}
+header .head_layer ul li i{
+    width: 30px;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+/* ---------------section services--------------*/
+#services .card i{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+#services h2{
+    border-bottom: 1px dotted rgb(214, 214, 214);
+    display: inline-block;
+}
+#services .card:hover i{
+    color: white;
+    background-color: black;
+}
+/* -----------------portfolio section---------------- */
+#portfolio h2{
+    border-bottom: 1px dotted rgb(214, 214, 214);
+    display: inline-block;
+}
+#portfolio .container .nav-item .active{
+    background-color: transparent !important;
+    color: black !important;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+#portfolio .container .tab-content .row .pro{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .container .tab-content .row .pro .pro-desc{
+    position: absolute;
+    opacity: 0;
+    transition: top 0.5s , opacity 1s;
+}
+#portfolio .container .tab-content .row .pro:hover .pro-desc{
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    opacity: 1;
+}
+#portfolio .container .tab-content .row .pro .pro-icons i{
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#portfolio .container .tab-content .row .pro .pro-icons i:hover{
+    color: black;
+    background-color: white;
+}
+/* -------------------------testimonial section ----------------- */
+#testimonial h2{
+    border-bottom: 1px dotted rgb(214, 214, 214);
+    display: inline-block;
+    font-weight: 700;
+}
+#testimonial .container .carousel-item .test-desc img{
+    width: 150px;
+    border-radius: 50%;
+} 
+#testimonial .container .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(204, 204, 204);
+}
+#testimonial .container .carousel-indicators .active{
+    background-color: grey;
+}
+/* --------------------team section-------------- */
+#team h2{
+    border-bottom: 1px dotted rgb(214, 214, 214);
+    display: inline-block;
+    font-weight: 700;
+}
+#team .container .row .card-desc{
+    position: relative;
+
+}
+#team .container .row .card-desc .card-icons{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: transform 0.5s;
+}
+#team .container .row .card-desc .card-icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+#team .container .row .card-desc .card-icons i:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#team .container .row .card-desc img{
+    transition: all 0.5s;
+}
+#team .container .row .card-desc:hover img{
+    transform: scale(1.3);
+}
+#team .container .row .card:hover .card-icons{
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+/* -----------------contact section------------------- */
+#contact .container .row .contact-icon i{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+#contact .container .row .contact-icon:hover i{
+    background-color: black;
+    color: white;
+}
+#contact .container form input{
+    background-color: rgb(194, 194, 194);
+}
+#contact .container form textarea{
+    background-color: rgb(194, 194, 194);
+}
+/* ------------------footer--------------------- */
+footer{
+    height: 15vh;
+}
+footer p{
+    color: gray;
+}
